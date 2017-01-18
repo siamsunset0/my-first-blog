@@ -2,5 +2,5 @@ from django.conf.urls import include, url
 from . import views
 
 urlpatterns = [
-    url(r'^$', views.si_list, name='si_list'),
+    url(r'^si_list/$', views.si_list, name='si_list'),
 ]
